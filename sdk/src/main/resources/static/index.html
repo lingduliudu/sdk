@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="tippy/tippy.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="tippy/tippy.js"></script>
+    <script src="tippy/popper.min.js"></script>
+</head>
+<body>
+<button id="myButton">My Button</button>
+<script type="text/javascript">
+    $(document).ready(function(){
+        tippy('#myButton', {
+            content: "I'm a Tippy tooltip!",
+        });
+    });
+</script>
+</body>
+</html>
