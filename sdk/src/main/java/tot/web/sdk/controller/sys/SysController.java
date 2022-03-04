@@ -10,4 +10,8 @@ public class SysController {
     public String index(){
         return "index";
     }
+    @RequestMapping("loading")
+    public String loading(){
+        return "loading";
+    }
 }
